@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './header.css';
 
 import logo from '../../assets/images/favicon.ico';
 
@@ -35,20 +34,21 @@ const Header = () => {
         </div>
         {/* Header Menu  */}
         <div className="header__menu">
-          <div className="header__menu__left">
-            <div className="header__menu__mobile-toggle">
-              <ion-icon name="menu-outline"></ion-icon>
-              {mainNav.map((item, index) => {
-                return (
-                  <div key={index} className="header__menu__left_items">
-                    <NavLink to={item.path}>
-                      <span>{item.display}</span>
-                    </NavLink>
-                  </div>
-                );
-              })}
-            </div>
+          <div className="header__menu__mobile-toggle">
+            <ion-icon name="menu-outline"></ion-icon>
           </div>
+          <div className="header__menu__left">
+            {mainNav.map((item, index) => {
+              return (
+                <div key={index} className="header__menu__left_items">
+                  <NavLink to={item.path}>
+                    <span>{item.display}</span>
+                  </NavLink>
+                </div>
+              );
+            })}
+          </div>
+
           <div className="header__menu__right">
             <div className="header__menu__right__items">
               <ion-icon name="search-outline"></ion-icon>
