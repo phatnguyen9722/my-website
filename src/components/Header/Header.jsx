@@ -38,9 +38,12 @@ const Header = () => {
             <ion-icon name="menu-outline"></ion-icon>
           </div>
           <div className="header__menu__left">
+            <div className="header__menu__left__close">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
             {mainNav.map((item, index) => {
               return (
-                <div key={index} className="header__menu__left_items">
+                <div key={index} className="header__menu__items header__menu__left_items">
                   <NavLink to={item.path}>
                     <span>{item.display}</span>
                   </NavLink>
@@ -50,15 +53,15 @@ const Header = () => {
           </div>
 
           <div className="header__menu__right">
-            <div className="header__menu__right__items">
+            <div className="header__menu__items header__menu__right__items">
               <ion-icon name="search-outline"></ion-icon>
             </div>
-            <div className="header__menu__right__items">
+            <div className="header__menu__items header__menu__right__items">
               <NavLink to="/cart">
                 <ion-icon name="cart-outline"></ion-icon>
               </NavLink>
             </div>
-            <div className="header__menu__right__items">
+            <div className="header__menu__items header__menu__right__items">
               <ion-icon name="person-circle-outline"></ion-icon>
             </div>
           </div>
