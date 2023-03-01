@@ -37,6 +37,17 @@
     }
     &__right {
       font-size: 2.25rem;
+      &__items {
+        // @include flex(center, center);
+      }
+
+      @include tablet {
+        // margin-left: auto;
+      }
+
+      @include mobile {
+        font-size: 1.5rem;
+      }
     }
     &__left,
     &__right {
