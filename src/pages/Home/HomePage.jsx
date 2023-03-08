@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import Helmet from '../../components/common/Helmet';
 import Section, { SectionTitle, SectionBody } from '../../components/common/Section';
