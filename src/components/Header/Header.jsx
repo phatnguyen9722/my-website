@@ -9,16 +9,16 @@ const mainNav = [
     path: '/',
   },
   {
-    display: 'Pokemons',
-    path: '/pokemons',
+    display: 'Digimon',
+    path: '/digimon',
   },
   {
     display: 'More',
-    path: '/More',
+    path: '/more',
   },
   {
     display: 'Contact',
-    path: '/Contact',
+    path: '/contact',
   },
 ];
 
