@@ -6,7 +6,6 @@
   width: 100%;
   z-index: 99;
   height: $header-height;
-  background-color: $main-color;
 
   .container {
     height: 100%;
@@ -62,7 +61,8 @@
     }
     &__items:hover,
     a:hover {
-      color: $main-bg;
+      font-weight: 500;
+      color: $main-color;
     }
   }
 }

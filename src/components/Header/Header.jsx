@@ -9,8 +9,8 @@ const mainNav = [
     path: '/',
   },
   {
-    display: 'Products',
-    path: '/Product',
+    display: 'Pokemons',
+    path: '/pokemons',
   },
   {
     display: 'More',
