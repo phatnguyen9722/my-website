@@ -1,4 +1,4 @@
-const digimon_01_image_01 = require('../images/digimon/pikachu.png').default;
+const digimon_01_image_01 = require('../images/digimon/veemon.jpg').default;
 
 const digimon_02_image_01 = require('../images/digimon/squirtle.png').default;
 
@@ -8,12 +8,12 @@ const digimon_04_image_01 = require('../images/digimon/certitan.png').default;
 
 const Digimon = [
     {
-        title: 'pikachu',
-        type: 'electric',
+        title: 'veemon',
+        type: 'virus',
         image01: digimon_01_image_01,
         // image02: product_01_image_02,
         description:
-            'a',
+            'Main SS3',
     },
     {
         title: 'squirtle',
