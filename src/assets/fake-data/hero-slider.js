@@ -1,5 +1,5 @@
 const img01 = require("../images/slider/1-slider-digimon.png")
-const img02 = require("../images/slider/2-slider-digimon.jpeg")
+const img02 = require("../images/slider/2-slider-digimon.png")
 const img03 = require("../images/slider/3-slider-digimon.png")
 
 const heroSliderData = [
