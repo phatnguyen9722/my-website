@@ -11,7 +11,7 @@ const DigimonCard = (props) => {
     <div className="digimon-card">
       <Link to={``}>
         <div className="digimon-card__image">
-          <img src={props.img01} alt="" />
+          <img src={props.img01} alt="digimon" />
         </div>
         <h3 classname="digimon-card__name">{props.name}</h3>
       </Link>
