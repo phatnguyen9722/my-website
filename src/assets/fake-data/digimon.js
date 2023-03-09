@@ -1,16 +1,16 @@
-const digimon_01_image_01 = require('../images/digimon/veemon.jpg').default;
-const digimon_01_image_02 = require('../images/digimon/x-veemon.jpeg').default;
+const digimon_01_image_01 = require('../images/digimon/veemon.jpg');
+const digimon_01_image_02 = require('../images/digimon/x-veemon.jpeg');
 
-const digimon_02_image_01 = require('../images/digimon/agumon.png').default;
+const digimon_02_image_01 = require('../images/digimon/agumon.png');
 
-const digimon_03_image_01 = require('../images/digimon/gatomon.png').default;
+const digimon_03_image_01 = require('../images/digimon/gatomon.png');
 
-const digimon_04_image_01 = require('../images/digimon/patamon.webp').default;
+const digimon_04_image_01 = require('../images/digimon/patamon.webp');
 
 const Digimon = [
     {
         title: 'veemon',
-        type: 'virus',
+        type: 'dragon',
         image01: digimon_01_image_01,
         image02: digimon_01_image_02,
         description:

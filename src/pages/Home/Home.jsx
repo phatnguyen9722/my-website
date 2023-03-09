@@ -11,6 +11,7 @@ import DigimonData from '../../assets/fake-data/digimon';
 import heroSliderData from '../../assets/fake-data/hero-slider';
 import banner from '../../assets/images/banner.png';
 function Home() {
+  console.log(DigimonData.getDigimon(4))
   return (
     <Helmet title="Home">
       {/* hero slider */}

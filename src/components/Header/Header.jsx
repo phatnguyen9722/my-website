@@ -43,7 +43,7 @@ const Header = () => {
             </div>
             {mainNav.map((item, index) => {
               return (
-                <div key={index} className="header__menu__items header__menu__left_item">
+                <div key={index} className="header__menu__item header__menu__left_item">
                   <NavLink to={item.path}>
                     <span>{item.display}</span>
                   </NavLink>
