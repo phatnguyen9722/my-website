@@ -2,8 +2,10 @@ const digimon_01_image_01 = require('../images/digimon/veemon.jpg');
 const digimon_01_image_02 = require('../images/digimon/x-veemon.jpeg');
 
 const digimon_02_image_01 = require('../images/digimon/agumon.png');
+const digimon_02_image_02 = require('../images/digimon/greymon.png');
 
 const digimon_03_image_01 = require('../images/digimon/gatomon.png');
+const digimon_03_image_02 = require('../images/digimon/angewomon.webp');
 
 const digimon_04_image_01 = require('../images/digimon/patamon.webp');
 
@@ -20,7 +22,7 @@ const Digimon = [
         title: 'agumon',
         type: 'fire',
         image01: digimon_02_image_01,
-        // image02: product_02_image_02,
+        image02: digimon_02_image_02,
         description:
             `Agumon is a Reptile Digimon. It has grown up and become able to walk on two legs, and has an appearance like a tiny dinosaur. Because it is still on the way to adulthood, its power is low, but as its personality is quite ferocious, it doesn't understand fear. It has grown hard, sharp claws on both its hands and feet, and demonstrates its power in battle. It is also a being that foretells Digivolution to a great and powerful Digimon.`
     },
@@ -28,7 +30,7 @@ const Digimon = [
         title: 'gatomon',
         type: 'Holy Beast',
         image01: digimon_03_image_01,
-        // image02: product_02_image_02,
+        image02: digimon_03_image_02,
         description:
             `Gatomon is an Animal Digimon. It has a very healthy curiosity, so it loves pranks. Although its body is small, it is a precious Holy-species Digimon, and its appearance does not match the true strength it possesses. It wears a Holy Ring on its tail, but if it is lost, its power is decreased and it can no longer exhibit its original power.`
     },

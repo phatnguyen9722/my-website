@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 import { Link } from 'react-router-dom';
 
@@ -12,6 +12,7 @@ const DigimonCard = (props) => {
       <Link to={``}>
         <div className="digimon-card__image">
           <img src={props.img01} alt="digimon" />
+          <img src={props.img02} alt="digimon-2" />
         </div>
         <h3 className="digimon-card__name">{props.name}</h3>
       </Link>
@@ -21,7 +22,7 @@ const DigimonCard = (props) => {
 
 DigimonCard.propTypes = {
   img01: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired
-}
+  name: PropTypes.string.isRequired,
+};
 
 export default DigimonCard;

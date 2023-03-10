@@ -11,12 +11,10 @@ import DigimonData from '../../assets/fake-data/digimon';
 import heroSliderData from '../../assets/fake-data/hero-slider';
 import banner from '../../assets/images/banner.png';
 function Home() {
-  console.log(DigimonData.getDigimon(4))
+  console.log(DigimonData.getDigimon(4));
   return (
     <Helmet title="Home">
-      {/* hero slider */}
       <HeroSlider data={heroSliderData} control={true} auto={false} timeOut={5000} />
-      {/* end hero slider */}
 
       {/* policy section */}
       <Section>
