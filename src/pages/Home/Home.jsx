@@ -38,6 +38,7 @@ function Home() {
                 key={index}
                 img01={item.image01}
                 img02={item.image02}
+                coin={item.coin}
                 name={item.title}
                 slug={item.slug}
               />

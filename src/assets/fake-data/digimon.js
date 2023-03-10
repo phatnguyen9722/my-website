@@ -10,11 +10,18 @@ const digimon_03_image_02 = require('../images/digimon/angewomon.webp');
 const digimon_04_image_01 = require('../images/digimon/patamon.webp');
 const digimon_04_image_02 = require('../images/digimon/angemon.png');
 
-const digimon_05_image_01 = require('../images/digimon/gabumon.webp');
+const digimon_05_image_01 = require('../images/digimon/gabumon.png');
 const digimon_05_image_02 = require('../images/digimon/garurumon.webp');
+
+const digimon_06_image_01 = require('../images/digimon/palmon.png');
+const digimon_06_image_02 = require('../images/digimon/lillymon.webp');
+
+const digimon_07_image_01 = require('../images/digimon/terriermon.png');
+const digimon_07_image_02 = require('../images/digimon/galgomon.png');
 const Digimon = [
     {
         title: 'Veemon',
+        coin: '777',
         type: 'dragon',
         image01: digimon_01_image_01,
         image02: digimon_01_image_02,
@@ -23,6 +30,7 @@ const Digimon = [
     },
     {
         title: 'agumon',
+        coin: '789',
         type: 'fire',
         image01: digimon_02_image_01,
         image02: digimon_02_image_02,
@@ -31,6 +39,7 @@ const Digimon = [
     },
     {
         title: 'Gatomon',
+        coin: 999,
         type: 'Holy Beast',
         image01: digimon_03_image_01,
         image02: digimon_03_image_02,
@@ -39,6 +48,7 @@ const Digimon = [
     },
     {
         title: 'Patamon',
+        coin: '555',
         type: '',
         image01: digimon_04_image_01,
         image02: digimon_04_image_02,
@@ -47,11 +57,30 @@ const Digimon = [
     },
     {
         title: 'Gabumon',
+        coin: '456',
         type: 'Fire',
         image01: digimon_05_image_01,
         image02: digimon_05_image_02,
         description:
             `Gabumon is a Reptile Digimon. Although it is covered by a fur pelt, it is still clearly a Reptile Digimon. Due to its extremely timid and shy personality, it always gathers up the data which Garurumon leaves behind, and shapes it into a fur pelt to wear. Because it is wearing the fur pelt of Garurumon, who is feared by other Digimon, it fills the role of safeguarding itself as a result of protecting its body. When it is wearing the fur pelt, its personality does a complete 180° shift. Gabumon is especially close to Bulucomon.`,
+    },
+    {
+        title: 'Palmon',
+        coin: '444',
+        type: 'Plant',
+        image01: digimon_06_image_01,
+        image02: digimon_06_image_02,
+        description:
+            `Gabumon is a Reptile Digimon. Although it is covered by a fur pelt, it is still clearly a Reptile Digimon. Due to its extremely timid and shy personality, it always gathers up the data which Garurumon leaves behind, and shapes it into a fur pelt to wear. Because it is wearing the fur pelt of Garurumon, who is feared by other Digimon, it fills the role of safeguarding itself as a result of protecting its body. When it is wearing the fur pelt, its personality does a complete 180° shift. Gabumon is especially close to Bulucomon.`,
+    },
+    {
+        title: 'Terriermon',
+        coin: '666',
+        type: 'Vaccine',
+        image01: digimon_07_image_01,
+        image02: digimon_07_image_02,
+        description:
+            `Terriermon is an Animal Digimon. It is an extremely precious Rookie Digimon that is a twin to Lopmon. While Terriermon has only one horn growing from its head and has a calm but robust personality, Lopmon has three horns growing from its head and has the personality of a lonely crybaby. It is a Digimon shrouded in mystery, and it can be classified as a Beast-species Digimon from its body structure, but it's still not understood what kind of digivolved form it will take on. Also, it is rumored that it is sometimes born with its twin. It's a very cute type of Digimon, and from its calm behavior, it doesn't seem like a "Combat Species", but when battling, it shows that it is more powerful than it appears.`,
     },
 ];
 
